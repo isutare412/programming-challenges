@@ -1,0 +1,7 @@
+got_str = input()
+a, b = list(map(lambda s: int(s), got_str.strip().split()))
+print(a + b)
+print(a - b)
+print(a * b)
+print(a // b)
+print(a % b)
