@@ -22,5 +22,5 @@ def triangle(height):
 
 
 height = int(input())
-for row in triangle(height):
-    print(row)
+for i, row in enumerate(triangle(height)):
+    print(row + (' ' * (height - i - 1)))
